@@ -1,0 +1,153 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  }
+
+/* Style the header */
+header {
+  background-color: #7D4B2Aff;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: #79af30;
+  height: 300px;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: center;
+  width: 100%;
+  height: 100px; /* only for demonstration, should be removed */
+  background: #ccc;
+  padding: 0px ; 
+  }
+
+/* Style the list inside the menu */
+
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Style the "active" element to highlight the current page */
+.topnav a.active {
+  background-color: #2196F3;
+  color: white;
+}
+
+/* Style the search box inside the navigation bar */
+.topnav input[type=text] {
+  float: right;
+  padding: 6px;
+  border: none;
+  margin-top: 8px;
+  margin-right: 16px;
+  font-size: 17px;
+}
+
+/* When the screen is less than 600px wide, stack the links and the search field vertically instead of horizontally */
+@media screen and (max-width: 600px) {
+  .topnav a, .topnav input[type=text] {
+    float: none;
+    display: block;
+    text-align: left;
+    width: 100%;
+    margin: 0;
+    padding: 14px;
+  }
+  .topnav input[type=text] {
+    border: 1px solid #ccc;
+  }
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: #C9682Eff;
+  height: 300px; /* only for demonstration, should be removed */
+}
+
+
+
+/* Style the footer */
+footer {
+  background-color: #7D4B2Aff;
+  padding: 10px;
+  text-align: center;
+  color: #79af30 ;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: 	#7D4B2Aff;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: #79af30;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight:bold ;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #79af30;
+  color: #8e6345 ;
+}
+
+
+h3{
+  font-size: 30px;
+  color: 	#69BE9Bff ;
+  font-style: italic;
+  background-color: #C9682Eff;
+}
+article{
+  width: 1000px;
+  height: 100px;
+}
+section{
+  background-color: #C9682Eff;
+}
+#img img{
+  margin: auto;
+  display: block;
+}
+aside{
+  width: auto;
+  height: 400px;
+  background-color: #6BA38Cff;
+  overflow: scroll;
+}
+h2{
+  text-align: center;
+  color: #ddd;
+}
+h4{
+  text-align: center;
+  font-size: 30px;
+  color: #ddd;
+}
